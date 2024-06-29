@@ -277,9 +277,6 @@ a:hover {
   margin-bottom: -18rem;
 }
 
-#hero .logo-banner img{
-  height: 70%;
-}
 
 /* 5 - Extra small devices (phones, 600px and down)  320 x 568*/
 @media only screen and (max-width: 600px) {
@@ -293,6 +290,11 @@ a:hover {
 
   #main{
     margin-top: 15px;
+  }
+
+  .logo-banner img{
+    height: 65%;
+    width: auto;
   }
 }
 
@@ -319,6 +321,11 @@ a:hover {
 
   #hero {
     margin-bottom: -13rem;
+  }
+
+  .logo-banner img{
+    height: 65%;
+    width: auto;
   }
 
 }

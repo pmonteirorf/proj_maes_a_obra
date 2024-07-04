@@ -621,12 +621,38 @@ section {
   color: #777777;
 }
 
+.departments .details .citacao {
+  color: var(--color-emphasis-primary);
+  font-size: larger;
+}
+
+
 .departments .details p:last-child {
   margin-bottom: 0;
 }
 
 .departments .details-img img{
   border-radius: 200px;
+}
+
+.quote-icon-left {
+  color: color-mix(in srgb, var(--color-emphasis-primary), transparent 60%);
+  font-size: 36px;
+  line-height: 0;
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.quote-icon-right {
+  color: color-mix(in srgb, var(--color-emphasis-primary), transparent 60%);
+  font-size: 36px;
+  line-height: 0;
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+  transform: scale(-1, -1);
 }
 
 .gallery .swiper-pagination {

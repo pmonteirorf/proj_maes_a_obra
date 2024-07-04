@@ -550,18 +550,18 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Departments
+# participantes
 --------------------------------------------------------------*/
-.departments .tab-group{
+.participantes .tab-group{
   overflow-x: hidden;
   /* max-height: 250px; */
 }
 
-.departments .nav-tabs {
+.participantes .nav-tabs {
   border: 0;
 }
 
-.departments .nav-link {
+.participantes .nav-link {
   border: 0;
   padding: 12px 15px 12px 0;
   transition: 0.3s;
@@ -572,27 +572,27 @@ section {
   font-size: 15px;
 }
 
-.departments .nav-link:hover {
+.participantes .nav-link:hover {
   color: var(--color-emphasis-primary);
 }
 
-.departments .nav-link.active {
+.participantes .nav-link.active {
   color: var(--color-emphasis-primary);
   border-color: var(--color-emphasis-primary);
 }
 
-.departments .tab-pane.active {
+.participantes .tab-pane.active {
   animation: fadeIn 0.5s ease-out;
 }
 
-.departments .title {
+.participantes .title {
   font-family: var(--font-logomarca);
   font-weight: 400;
   font-style: normal;
   color: var(--color-emphasis-secondary);
 }
 
-.departments .details h3 {
+.participantes .details h3 {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -600,7 +600,7 @@ section {
   font-family: var(--font-secondary);
 }
 
-.departments .details a{
+.participantes .details a{
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
@@ -612,26 +612,26 @@ section {
   color: #fff;
 }
 
-.departments .details a:hover{
+.participantes .details a:hover{
   background: var(--color-primary-ligth);
   color: var(--color-emphasis-primary);
 }
 
-.departments .details p {
+.participantes .details p {
   color: #777777;
 }
 
-.departments .details .citacao {
+.participantes .details .citacao {
   color: var(--color-emphasis-primary);
   font-size: larger;
 }
 
 
-.departments .details p:last-child {
+.participantes .details p:last-child {
   margin-bottom: 0;
 }
 
-.departments .details-img img{
+.participantes .details-img img{
   border-radius: 200px;
 }
 
@@ -683,12 +683,12 @@ section {
 }
 
 @media (max-width: 992px) {
-  .departments .nav-link {
+  .participantes .nav-link {
     border: 0;
     padding: 15px;
   }
 
-  .departments .nav-link.active {
+  .participantes .nav-link.active {
     color: #fff;
     background: var(--color-emphasis-primary);
   }

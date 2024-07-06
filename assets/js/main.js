@@ -326,22 +326,22 @@
 
 
   // Initiate Services
-  selectService('servicos-coffebreak');
+  selectService('servicos-coffeebreak');
 
 })();
 
 function selectService(id){
-  if(id == 'servicos-coffebreak'){
-    changeDisplay('coffebreak-gallery', 'block');
+  if(id == 'servicos-coffeebreak'){
+    changeDisplay('coffeebreak-gallery', 'block');
     changeDisplay('feiras-gallery', 'none');
     document.getElementById(id).classList.add('service-item-selected');
     document.getElementById('servicos-feiras').classList.remove('service-item-selected');
 
   }else{
-    changeDisplay('coffebreak-gallery', 'none');
+    changeDisplay('coffeebreak-gallery', 'none');
     changeDisplay('feiras-gallery', 'block');
     document.getElementById(id).classList.add('service-item-selected');
-    document.getElementById('servicos-coffebreak').classList.remove('service-item-selected');
+    document.getElementById('servicos-coffeebreak').classList.remove('service-item-selected');
 
   }
 }

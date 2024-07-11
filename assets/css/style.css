@@ -635,6 +635,16 @@ section {
   border-radius: 200px;
 }
 
+.buy-btn{
+  background-color: var(--color-emphasis-secondary);
+  border-color: var(--color-emphasis-secondary);
+}
+
+.buy-btn:hover{
+  background-color: var(--color-emphasis-secondary-dark);
+  border-color: var(--color-emphasis-secondary-dark);
+}
+
 .quote-icon-left {
   color: color-mix(in srgb, var(--color-emphasis-primary), transparent 60%);
   font-size: 36px;

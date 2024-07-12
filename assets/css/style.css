@@ -552,10 +552,6 @@ section {
 /*--------------------------------------------------------------
 # participantes
 --------------------------------------------------------------*/
-.participantes .tab-group{
-  overflow-x: hidden;
-  /* max-height: 250px; */
-}
 
 .participantes .nav-tabs {
   border: 0;
@@ -579,6 +575,7 @@ section {
 .participantes .nav-link.active {
   color: var(--color-emphasis-primary);
   border-color: var(--color-emphasis-primary);
+  background-color: var(--color-primary-ligth);
 }
 
 .participantes .tab-pane.active {
@@ -704,10 +701,13 @@ section {
   }
 }
 
-
 /*--------------------------------------------------------------
 # servicos
 --------------------------------------------------------------*/
+.link-service{
+  cursor: pointer;
+  font-weight: bold;
+}
 .servicos .service-item {
   text-align: center;
   border: 1px solid color-mix(in srgb, var(--color-primary), transparent 85%);

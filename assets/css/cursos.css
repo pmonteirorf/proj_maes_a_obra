@@ -1,0 +1,29 @@
+.cursos .card-item {
+    border: 1px solid var(--color-emphasis-primary);
+    background: #fff;
+    position: relative;
+    border-radius: 0;
+  }
+  
+  .cursos .card-item .card-bg {
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .cursos .card-item .card-body {
+    padding: 30px;
+  }
+  
+  .cursos .card-item h4 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: var(--color-emphasis-primary);
+    font-family: var(--font-secondary);
+  }
+  
+  .cursos .card-item p {
+    margin: 0;
+  }

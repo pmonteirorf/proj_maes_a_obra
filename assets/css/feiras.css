@@ -1,0 +1,31 @@
+.feiras .swiper-button-prev {
+    color: var(--color-primary); 
+  }
+  
+  .feiras .swiper-button-next {
+    color: var(--color-primary); 
+  }
+  
+  .feiras .swiper-slide{
+    padding: 40px;
+  }
+  
+  .feiras .swiper-pagination .swiper-pagination-bullet-active{
+    background: var(--color-primary); 
+  }
+  
+  .events-slider .card i{
+    position: absolute;
+    color: #fff;
+  }
+  
+  .events-slider .card .card-top {
+    max-height: 235px;
+    overflow: hidden;
+  }
+  
+  .custom-tooltip{
+    --bs-tooltip-bg: var(--color-emphasis-secondary);
+    --bs-tooltip-color: var(--bs-white);
+  }
+  

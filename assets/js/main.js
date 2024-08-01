@@ -90,24 +90,26 @@
 
   changeActiveTab();
 
-  // Exibir opções no menu mobile
+  // Exibir opções no menu mobile para os participantes de GASTRONOMIA
   on("click", ".mobile-nav-toggle-gastronomia", function (e) {
     select("#gastronomia").classList.toggle("navtabs-mobile");
   });
 
-  // Fechar opções no menu mobile
+  // Fechar opções no menu mobile para os participantes de GASTRONOMIA
   on('click', '#gastronomia>ul', function(e) {
     select('#gastronomia').classList.remove('navtabs-mobile');
     changeActiveTab();
   });
 
-
+  // Exibir opções no menu mobile para os participantes de ARTESANATO
   on("click", ".mobile-nav-toggle-artesanato", function (e) {
     select("#artesanato").classList.toggle("navtabs-mobile");
   });
 
+  
+  // Fechar opções no menu mobile para os participantes de ARTESANATO
   on('click', '#artesanato>ul', function(e) {
-    select('#artesanato').classList.toggle('navtabs-mobile');
+    select('#artesanato').classList.remove('navtabs-mobile');
     changeActiveTab();
   });
 
